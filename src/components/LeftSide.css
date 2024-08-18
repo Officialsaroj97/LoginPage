@@ -46,11 +46,11 @@ header span button {
 
 /* Hover effect for showing options */
 .enroll-container {
-  position: relative; /* This is important for positioning the options below the button */
+  position: relative;
 }
 
 .enroll-button {
-  background-color: #ffffff; /* Ensure it matches your design */
+  background-color: #ffffff;
   color: green;
   border: 1px solid black;
   padding: 12px 30px;
@@ -60,9 +60,9 @@ header span button {
 }
 
 .enroll-options {
-  display: none; /* Hidden by default */
-  position: absolute; /* Position it absolutely within the container */
-  top: 100%; /* Position below the button */
+  display: none;
+  position: absolute;
+  top: 100%;
   background-color: black;
   color: white;
   left: -25px;
@@ -70,7 +70,7 @@ header span button {
   border-radius: 10px;
   z-index: 10;
   margin-top: 10px;
-  width: 150px; /* Adjust width as needed */
+  width: 150px;
 }
 .enroll-options h6 {
   margin-top: 5px;
@@ -91,10 +91,9 @@ header span button {
 }
 
 .enroll-container:hover .enroll-options {
-  display: block; /* Show options on hover */
+  display: block;
 }
 
-/* Start left side style */
 .login-form {
   display: flex;
   width: 100%;

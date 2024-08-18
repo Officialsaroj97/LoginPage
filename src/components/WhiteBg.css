@@ -1,14 +1,12 @@
-/* CenteredLogo.css */
-
 .centered-logo {
-  display: flex; /* Use flexbox to center items */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  background-color: white; /* White background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
 }
 
 .logo {
-  max-width: 100%; /* Ensure the logo scales appropriately */
-  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%;
+  height: auto;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import "./LeftSide.css"; // Import the CSS file
-import mainlogo from "../assets/images/mainlogo.png"; // Adjust the path as needed
+import "./LeftSide.css";
+import mainlogo from "../assets/images/mainlogo.png";
 
 const LeftSide = ({ onSubmit }) => {
   const handleSubmit = (e) => {

@@ -1,6 +1,6 @@
 import React from "react";
-import "./WhiteBg.css"; // Import the CSS file
-import logo from "../assets/images/logo.png"; // Path to your logo image
+import "./WhiteBg.css";
+import logo from "../assets/images/logo.png";
 
 const WhiteBg = () => {
   return (

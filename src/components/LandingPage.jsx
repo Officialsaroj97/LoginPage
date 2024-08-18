@@ -1,7 +1,6 @@
 import React from "react";
-import "./LandingPage.css"; // Import the CSS file
-import logo from "../assets/images/logo.png"; // Path to your logo image
-import bg from "../assets/images/bg.png"; // Path to your background image
+import "./LandingPage.css";
+import logo from "../assets/images/logo.png";
 
 const LandingPage = () => {
   return (
