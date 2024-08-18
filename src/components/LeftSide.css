@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+header img {
+  max-width: 150px;
+  height: auto;
+  margin-left: 110px;
+}
+
+form {
+  margin-left: 3rem;
+}
+
+header span {
+  display: flex;
+  flex-direction: column;
+}
+
+header span p {
+  font-size: 16px;
+  color: #333;
+  margin-left: 2rem;
+  margin-top: 25px;
+}
+
+header span button {
+  margin-top: 10px;
+  padding: 12px 30px;
+  background-color: #ffffff;
+  color: green;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* Start left side style */
+.login-form {
+  display: flex;
+  width: 100%;
+  max-width: 1120px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 10rem;
+}
+
+.login-form h1 {
+  font-weight: bold;
+  margin-left: 3rem;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-form p {
+  margin: 10px 0 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.login-form input[type="username"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.login-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.login-form label {
+  font-size: 14px;
+  color: #666;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 13px;
+  background-color: #8c939b;
+  color: white;
+  margin: 20px 0 20px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #0aa548;
+}
+
+.login-form a {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 12px;
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.atwo {
+  margin-left: 30px;
+}
+
+.login-form div {
+  position: relative;
+}
+
+.login-form input[type="username"] + label,
+.login-form input[type="password"] + label {
+  position: absolute;
+  top: 29px;
+  left: 10px;
+  color: #aaa;
+  font-size: 14px;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.login-form input :hover {
+  border: 2px solid green;
+}
+
+.login-form input[type="username"]:focus + label,
+.login-form input[type="password"]:focus + label,
+.login-form input[type="username"]:not(:placeholder-shown) + label,
+.login-form input[type="password"]:not(:placeholder-shown) + label {
+  top: 13px;
+  left: 10px;
+  font-size: 12px;
+  color: #128503;
+  background-color: white;
+  padding: 0 5px;
+}
